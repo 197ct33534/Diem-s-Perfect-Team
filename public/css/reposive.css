@@ -1,0 +1,76 @@
+    /* medium (table) */
+    
+    @media (max-width: 767.98px) {
+        .header-logo {
+            margin-left: 3.6rem;
+        }
+        .header-bar i {
+            display: block;
+            position: absolute;
+            top: 0.8rem;
+            right: 2.4rem;
+            cursor: pointer;
+        }
+        .header-bar i {
+            font-size: 3rem;
+            color: #fff;
+        }
+        .header-list {
+            position: absolute;
+            top: 100%;
+            padding: 0;
+            background-color: #000;
+            width: 100%;
+            z-index: 10;
+            transition: all 0.5s ease-in-out;
+            display: none;
+        }
+        .header-list li {
+            display: block;
+            padding: 0.3rem 3rem;
+        }
+        .check.header-list {
+            display: block;
+        }
+        .header-link::before {
+            display: none;
+        }
+        .title-text {
+            margin-top: 2rem;
+            padding-left: 2.6rem;
+        }
+        .title-img {
+            margin-left: 0;
+            width: 100%;
+            max-height: 40rem;
+            border-radius: 0;
+        }
+        .menu-tea {
+            margin-bottom: 1rem;
+        }
+        .margin {
+            width: 0;
+        }
+        .menu-tea>span,
+        .menu-tea>img {
+            width: 100%;
+        }
+        .form-group label {
+            padding-left: 0;
+        }
+        .form-group {
+            display: block;
+            padding: 0 1.5rem;
+        }
+        textarea,
+        .form-group select,
+        .form-group input {
+            width: 100%;
+        }
+        .address p {
+            line-height: 2rem;
+        }
+        .card-info {
+            margin-top: 2rem;
+        }
+    }
