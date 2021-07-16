@@ -38,9 +38,10 @@ mang một hương vị, văn hóa ẩm thực đặc trưng của từng vùng 
         btnDis.style.display = "none"
     }
 }
-//slidebar
+
+var timedelay = 0;
 setInterval(() => {
-    var img = document.querySelector(".slider-bar img")
+    var img = document.querySelector(".slider img")
     var index = Number(img.dataset.id) + 1
     if (index > 6) {
         index = 1
@@ -48,5 +49,5 @@ setInterval(() => {
 
     img.dataset.id = index;
     img.src = `./image/${index}.jpg`;
-    img.style.animation = "showLeft 3s infinite 3s"
+    img.style.animation = `showLeft 3s infinite ${0}`
 }, 3000)
